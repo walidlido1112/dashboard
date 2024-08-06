@@ -3,7 +3,7 @@ import { Dashboard, Auth } from "@/layouts";
 import SignIn from "./pages/auth/sign-in";
 import SignUp from "./pages/auth/sign-up";
 import UserPage from "./pages/user/UserPage";
-import Home from "./pages/dashboard/Home"; // تأكد من استيراد جميع الصفحات المطلوبة هنا
+import Home from "./pages/dashboard/Home";
 import { useEffect, useState } from "react";
 import jwtDecode from "jwt-decode";
 
